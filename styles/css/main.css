@@ -1,0 +1,160 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text';
+@import 'https://fonts.googleapis.com/css?family=Covered+By+Your+Grace';
+
+html, body {
+	height: 100%;
+	font-family: 'HkGroteskRegular', sans-serif;
+	color: #222222;
+}
+::selection {
+	background: #00CFFF;
+}
+.__debug {
+	background: crimson;
+}
+
+.wallpaper {
+	background-color: #ffe10b;
+	height: 100%;
+}
+.jumbotron {
+	height: 100%;
+	margin-top: 10rem;
+}
+.jumbotron h1 {
+	font-family: 'Covered By Your Grace', serif;
+	font-size: 5rem;
+	color: #222222;
+	/*border-bottom: .4rem solid #333333;*/
+	/*line-height: 0;*/
+}
+.jumbotron p {
+	font-family: 'HkGroteskRegular', sans-serif;
+	color: #222222;
+	font-size: 1.3rem;
+	/*text-align: right;*/
+}
+.branche {
+	margin-top: 1.2rem;
+}
+a[href^="mailto:"] {
+	text-decoration: none;
+	color: #222222;
+	font-family: 'HkGroteskBold', sans-serif;
+	line-height: 0;
+}
+a[href^="mailto:"]:hover {
+	color: #00CFFF;
+}
+.social {
+	text-align: right;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.social-icons {
+	font-size: 1.2rem;
+	color: #222222;
+	padding: 0 .2rem 0 .2rem;
+}
+.social-icons:hover {
+	color: #00CFFF;
+}
+
+.footer {
+	background: #222222;
+	height: 220px;
+}
+.footer-link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+@media (min-width: 0rem) {
+	.jumbotron h1 {
+		line-height: 1;
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.jumbotron p {
+		text-align: center;
+		font-size: 1rem;
+	}
+	.email {
+		text-align: center;
+	}
+	.branche {
+		margin-top: 0;
+	}
+	.social {
+		text-align: center;
+	}
+}
+@media (min-width: 20rem) {
+	.jumbotron h1 {
+		line-height: 1;
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.jumbotron p {
+		text-align: center;
+		font-size: 1rem;
+	}
+	.email {
+		text-align: center;
+	}
+	.branche {
+		margin-top: 0;
+	}
+	.social {
+		text-align: center;
+	}
+}
+@media (min-width: 30rem) {
+	.jumbotron h1 {
+		line-height: 0;
+		font-size: 4rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.jumbotron p {
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	.email {
+		text-align: center;
+	}
+	.branche {
+		margin-top: 0;
+	}
+	.social {
+		text-align: center;
+	}
+}
+@media (min-width: 42.5rem) {
+	.jumbotron h1 {
+		line-height: 0;
+		font-size: 5rem;
+		text-align: left;
+		margin-bottom: 2rem;
+	}
+	.jumbotron p {
+		text-align: right;
+	}
+	.email {
+		text-align: left;
+	}
+	.branche {
+		margin-top: 1.2rem;
+	}
+	.social {
+		text-align: right;
+	}
+}
+@media (min-width: 60rem) {
+	
+}
+@media (min-width: 71.25rem) {
+	
+}
